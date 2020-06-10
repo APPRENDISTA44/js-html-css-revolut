@@ -69,3 +69,9 @@ nav{
 .active{
   display: block;
 }
+.it i{
+  display: none;
+}
+i.active{
+  display: inline-block;
+}
