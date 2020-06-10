@@ -1,0 +1,50 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+li a{
+  color:#bfc3c8;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.sinistra img{
+  height: 20px;
+}
+
+.sinistra li,
+.destra li{
+  display: inline-block;
+}
+.sinistra li{
+  margin-right: 20px;
+}
+.destra li {
+  margin-left: 20px;
+}
+.sinistra li:nth-child(2) a {
+  color: black;
+}
+.cta{
+  padding: 10px;
+  background-color: #eb008d;
+  color: white;
+  border-radius: 20px;
+}
