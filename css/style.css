@@ -13,6 +13,7 @@ li a{
 a{
   text-decoration: none;
 }
+/*hover sui link*/
 a:hover{
   color: black;
 }
@@ -32,11 +33,11 @@ nav{
 .sinistra img{
   height: 20px;
 }
-
 .sinistra > li,
 .destra > li{
   position: relative;
 }
+/*flex*/
 .destra,
 .sinistra{
   display: flex;
@@ -51,12 +52,14 @@ nav{
 .sinistra li:nth-child(2) a {
   color: black;
 }
+/*stile link bottone*/
 .cta{
   padding: 10px;
   background-color: #eb008d;
   color: white;
   border-radius: 20px;
 }
+/*stile della tendina*/
 .dropdown{
   width: 150px;
   position: absolute;
@@ -74,4 +77,11 @@ nav{
 }
 i.active{
   display: inline-block;
+}
+span{
+  color: #eb008d;
+  font-size: 10px;
+  font-weight: bold;
+  position: relative;
+  top:-10px;
 }
